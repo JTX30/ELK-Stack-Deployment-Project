@@ -48,10 +48,11 @@ The JumpBox Provisioner can access the ELK Server. The JumpBox’s IP is: 10.0.0
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
-|ELK   |             No        | 10.1.0.4    |
-| Jump Box |     No        | 10.0.0.9    |
-|  Web1      |      No        | 10.0.0.10  |
-|    Web2     |     No        |10.0.0.11   |
+|----------|---------------------|----------------------|
+| Jump Box | No              | 10.0.0.9    |
+| Web1       |  No                   |   10.0.0.10                   |
+|  Web2        |    No                 |   10.0.0.11                   |
+|  ELK     |  No             | 10.1.0.4     |
 
 ### Elk Configuration
 
